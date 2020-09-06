@@ -5,7 +5,7 @@ const addressInput = document.getElementById('address')! as HTMLInputElement;
 const latInput = document.getElementById('lat')! as HTMLInputElement;
 const lngInput = document.getElementById('lng')! as HTMLInputElement;
 
-const GOOGLE_API_KEY = 'AIzaSyCW3ERl8Cwr9t3OGPy3CaA888QnZ3njf8E';
+const GOOGLE_API_KEY = '';
 type GoogleGeocodingResponse = {
     results: {
         geometry: {
